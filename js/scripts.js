@@ -1,19 +1,16 @@
-// Business logic
+  // Business logic
 function pingPong(input) {
-  var userArray = [];
-  for (var index = 0; index < input; index++) {
-    userArray.push(index);
-    var userArray;
-  } for (var ping = 0; ping < input; ping++) {
-    if (ping % 3 === 0) {
-     userArray = userArray.replace(userArray[ping], "PING!");
-  }
-};
+    var userArray = [];
+    var newArray = [];
+    for (var index = 0; index < input; index++) {
+      userArray.push(index);
+    } if (index % 3 === 0) {
+          index = input.replace(ping, "ping")
+  };
   return userArray;
 };
 
-
-// UI Logic
+  // UI Logic
 
 $(document).ready(function() {
   $("form#pingPongForm").submit(function(event) {
