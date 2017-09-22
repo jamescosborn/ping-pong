@@ -3,7 +3,13 @@ function pingPong(input) {
   var userArray = [];
   for (var index = 0; index < input; index++) {
     userArray.push(index);
+    var userArray;
+  } for (var ping = 0; ping < input; ping++) {
+    if (ping % 3 === 0) {
+     userArray = userArray.replace(userArray[ping], "PING!");
   }
+};
+    alert("What's up bud!")
   return userArray;
 };
 
