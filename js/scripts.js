@@ -3,9 +3,8 @@ function pingPong(input) {
   var userArray = [];
   for (var index = 0; index < input; index++) {
     userArray.push(index);
-    var userArray = input;
   }
-  return input;
+  return userArray;
 };
 
 
