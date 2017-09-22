@@ -9,7 +9,6 @@ function pingPong(input) {
      userArray = userArray.replace(userArray[ping], "PING!");
   }
 };
-    alert("What's up bud!")
   return userArray;
 };
 

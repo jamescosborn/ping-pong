@@ -3,3 +3,13 @@
   padding-left: 15px;
 
 }
+
+#smallerGif {
+  width: 150px;
+  height: auto;
+  float: right;
+  position: relative;
+  top: -25px;
+
+
+}
