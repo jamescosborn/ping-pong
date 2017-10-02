@@ -20,7 +20,14 @@
   text-shadow: 2px 2px 5px red;
 }
 
+.btn {
+  background-color: green;
+}
 
 h4 {
   padding-top: 10px;
+}
+
+#skinny {
+  width: 200px;
 }

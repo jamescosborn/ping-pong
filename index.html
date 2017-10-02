@@ -10,14 +10,14 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <h1><span class="zesty">PING</span> <span class="zesty2">PONG</span> Simulator 2077</h1>
+        <h1><span class="zesty">PING</span><span class="zesty2">PONG</span> Simulator 2077</h1>
         <h4>Alpha v1.2</h4>
       </div>
     </div>
     <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <form id="pingPongForm">
+      <div class="row">
+        <div class="col-md-12">
+          <form id="pingPongForm">
           <img src="img/stickPeople.gif" id="smallerGif">
           <h3>Get psyched!</h3>
           <h4>Rules:</h4>
@@ -26,19 +26,23 @@
               <li>Numbers divisible by 3 become "ping".</li>
               <li>Numbers divisible by 5 become "pong".</li>
               <li>Numbers divisible by 3 and 5 become "pingpong".</li>
+              <li>Numbers divisible by 11 become "Match!"</li>
+              <li>Numbers divisible by 50 become "Champion".</li>
+              <li>Numbers divisible by 100 become "Legendary".</li>
             </ol>
 
-          <div class="form-group">
-            <label for="input">Enter something:</label>
-            <input id="playerNumber" type="text">
-          </div>
-          <button type="submit" class="btn">Do stuff.</button>
-        </form>
-      </div>
-      <div class="container">
-        <p>Here's your stuff:</p><ul><span id="result"></span></ul>
+            <div class="form-group">
+              <label for="input">How long do you want to play?</label>
+              <input id="playerNumber" type="text">
+            </div>
+            <button type="submit" class="btn">Serve!</button>
+          </form>
+        </div>
+        <div class="container">
+          <p>Game on:</p>
+          <span id="result"></span>
+        </div>
       </div>
     </div>
-  </div>
   </body>
 </html>
