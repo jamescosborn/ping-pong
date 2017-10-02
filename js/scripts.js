@@ -1,13 +1,19 @@
   // Business logic
-function pingPong(input) {
-    var userArray = [];
-    var newArray = [];
-    for (var index = 0; index < input; index++) {
-      userArray.push(index);
-    } if (index % 3 === 0) {
-          index = input.replace(ping, "ping")
-  };
-  return userArray;
+var pingPong = function(playerNumber) {
+  var userArray = [];
+  for (var index = 1; index <= playerNumber; index += 1) {
+    alert(index);
+     if (index % 15 === 0) {
+     userArray.push("pingPong")
+     console.log(userArray)
+   } else if (index % 5 === 0) {
+     userArray.push("pong")
+   } else if (index % 3 === 0) {
+     userArray.push("ping")
+   } else {
+     userArray.push();
+   } return userArray;
+  }
 };
 
   // UI Logic
@@ -15,8 +21,11 @@ function pingPong(input) {
 $(document).ready(function() {
   $("form#pingPongForm").submit(function(event) {
     event.preventDefault();
-    var input = parseInt($("input#input").val());
-    var result = pingPong(input);
-    $("#result").text(result);
+    var input = parseInt($("input#playerNumber").val());
+    var result = pingPong(playerNumber);
+    // result.forEach(function(rally) {
+    //   $("#result").append("<li>" + rally + "</li>");
+    // });
+
   });
 });
