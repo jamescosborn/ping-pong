@@ -17,7 +17,7 @@ var pingPong = function(numbers) {
      userArray.push("ping")
    } else {
      userArray.push(index);
-     console.log(userArray);
+    //  console.log(userArray);
    }
    } return userArray;
 };
