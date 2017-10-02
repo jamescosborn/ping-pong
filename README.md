@@ -64,10 +64,10 @@ Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, Match!, ping, 13, 
 
 #### 6. The program turns numbers divisible by 11 in to "Champion".
 
-Example Input: 15  
+Example Input: 50  
 Example Output: [...ping, 49, Champion]
 
 #### 7. The program turns numbers divisible by 11 in to "Legendary".
 
-Example Input: 15  
+Example Input: 100  
 Example Output: [...98, Match!, Legendary]
